@@ -4,5 +4,7 @@ end
 
 def batch_badge_creator(arr)
   batch_arr = []
-  arr.each {|j| batch_arr.push(badge_maker(j))}
+  data.each do |name|
+  batch_arr.push(name)
+ end
 end
