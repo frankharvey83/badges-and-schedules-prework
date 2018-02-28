@@ -9,3 +9,8 @@ def batch_badge_creator(arr)
  end
   batch_arr
 end
+
+def assign_rooms(arr)
+  room_assignments = []
+  arr.each_with_index {|i| puts i + 1}
+end
