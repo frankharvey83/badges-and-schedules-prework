@@ -1,5 +1,5 @@
 def badge_maker(name)
-"Hello, my name is #{name}."
+puts "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(arr)
@@ -17,5 +17,6 @@ def assign_rooms(arr)
 end
 
 def printer(attendees)
-
+ attendees.each do |name|
+   batch_badge_creator(name)
 end
