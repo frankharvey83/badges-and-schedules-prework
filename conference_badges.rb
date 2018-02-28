@@ -23,3 +23,4 @@ room_assignments.each do |room|
   puts room
 end
 end
+end
