@@ -12,5 +12,5 @@ end
 
 def assign_rooms(arr)
   room_assignments = []
-  arr.each_with_index {|i| puts i + 1}
+  arr.each_with_index {|i| puts i}
 end
